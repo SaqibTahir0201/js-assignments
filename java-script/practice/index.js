@@ -1,0 +1,40 @@
+//? practice 1
+/*
+let studentNumber = prompt("tell me your percentage");
+
+if (studentNumber >= 90 && studentNumber <= 100) {
+  alert("A grade");
+} else if (studentNumber >= 70 && studentNumber <= 89) {
+  alert("B grade");
+} else if (studentNumber >= 60 && studentNumber <= 69) {
+  alert("C grade");
+} else if (studentNumber >= 50 && studentNumber <= 59) {
+  alert("D grade");
+} else if (studentNumber >= 0 && studentNumber <= 49) {
+  alert("F grade");
+}
+
+console.log("according to your percentage, your grade is", studentNumber);
+
+*/
+
+let names = ["hello", "world", "hi", "xyz"];
+
+names.push("enter new name ");
+
+console.log(names);
+
+names.pop();
+console.log(names);
+
+names.unshift("add");
+
+console.log(names, names[4]);
+
+names.shift();
+
+console.log(names);
+
+names.splice();
+
+// ?
