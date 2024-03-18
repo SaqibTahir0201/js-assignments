@@ -13,28 +13,42 @@ if (studentNumber >= 90 && studentNumber <= 100) {
 } else if (studentNumber >= 0 && studentNumber <= 49) {
   alert("F grade");
 }
-
 console.log("according to your percentage, your grade is", studentNumber);
-
 */
 
-let names = ["hello", "world", "hi", "xyz"];
+// let names = ["hello", "world", "hi", "xyz"];
 
-names.push("enter new name ");
+// names.push("enter new name");
 
-console.log(names);
+// console.log(names);
 
-names.pop();
-console.log(names);
+// names.pop();
+// console.log(names);
 
-names.unshift("add");
+// names.unshift("add");
 
-console.log(names, names[4]);
+// console.log(names, names[4]);
 
-names.shift();
+// names.shift();
 
-console.log(names);
+// console.log(names);
 
-names.splice();
+// names.splice();
 
-// ?
+// // ?
+
+var cities = ["karachi", "islamabad", "quetta"];
+
+var userInput = prompt("enter city name");
+
+var isFound = false;
+for (let i = 0; i < cities.length; i++) {
+  if (userInput === cities[i]) {
+    console.log("found" + userInput);
+    isFound = true;
+    break;
+  }
+}
+if (isFound == false) {
+  console.log("not found");
+}

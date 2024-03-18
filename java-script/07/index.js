@@ -1,7 +1,7 @@
 //@ CH 14 & 16 ARRAYS
 
 //! ASSIGNMENT => 3
-/*
+
 //?  Declare and initialize a strings array.
 
 let strArray = ["Hello", "World"];
@@ -9,12 +9,9 @@ console.log(strArray);
 
 
 
-if (a= 1  a > 2){
-
-}
 
 
-1 || 2
+
 
 //! ASSIGNMENT => 4
 //? Declare and initialize a numbers array.
@@ -33,11 +30,11 @@ console.log(bolArray);
 
 let mixArray = ["apple", 10, "banana", false, 7];
 console.log(mixArray);
-*/
+
 //! ASSIGNMENT => 7
 //? Declare and Initialize an array and store available education qualifications
 
-/*let eduQualification = [
+let eduQualification = [
     "SSC",
   "HSC",
   "BCS",
@@ -66,8 +63,6 @@ document.write(`<ul className="ul">
 
 console.log(eduQualification);
 
-
-/*
 //! ASSIGNMENT => 8
 //?  display the scores & percentages of students
 
@@ -137,7 +132,7 @@ let countRem = prompt("How many colors do you want to remove");
 colors.splice(indexRem, countRem);
 
 console.log("List after removing color:", colors);
-*/
+
 //* ASSIGNMENT => 10 nhi hua
 //! ASSIGNMENT => 11
 
