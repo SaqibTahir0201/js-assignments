@@ -35,20 +35,64 @@ console.log("according to your percentage, your grade is", studentNumber);
 
 // names.splice();
 
-// // ?
+// // // ?
 
-var cities = ["karachi", "islamabad", "quetta"];
+// var cities = ["karachi", "islamabad", "quetta"];
 
-var userInput = prompt("enter city name");
+// var userInput = prompt("enter city name");
 
-var isFound = false;
-for (let i = 0; i < cities.length; i++) {
-  if (userInput === cities[i]) {
-    console.log("found" + userInput);
-    isFound = true;
-    break;
+// var isFound = false;
+// for (let i = 0; i < cities.length; i++) {
+//   if (userInput === cities[i]) {
+//     console.log("found" + userInput);
+//     isFound = true;
+//     break;
+//   } 
+// } 
+// if (isFound == false) {
+//   console.log("not found");
+// }
+
+
+// for (let i = 0; i < 20; i++) {
+  
+
+//   if (i % 2 === 0) {
+//     console.log(`even number ${i}`);
+//   }
+  
+// }
+
+// var numbers = [5,10,50,100,200,300,];
+
+// var largestNumber = 0
+
+// for (let i = 0; i < numbers.length; i++) {
+  
+//   if (numbers[i] > largestNumber) {
+    
+//     largestNumber = numbers[i];
+    
+//   }  
+  
+// }
+
+// console.log(largestNumber);
+
+
+//?
+
+var numbers = [5,10,50,100,200,300,];
+
+var smallestNumber = 0
+
+for (let i = 300; i > 0; i--) {
+
+  if (numbers[i] < smallestNumber) {
+    
+    largestNumber = numbers[i];
   }
+
 }
-if (isFound == false) {
-  console.log("not found");
-}
+
+console.log(smallestNumber);
