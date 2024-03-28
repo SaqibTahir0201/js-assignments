@@ -134,11 +134,11 @@ console.log(userAge);
 var number = prompt("give me any number");
 var message = "";
 if (number % 2 == 0) {
-  message = prompt("Number is even");
+  message = "Number is even";
   alert("Number is even");
   console.log("even");
 } else {
-  message = prompt("Number is odd");
+  message = "Number is odd";
   alert("Number is odd");
   console.log("odd");
 }
@@ -203,4 +203,3 @@ if (age < 12) {
   alert("ticket price is $12");
   console.log("$12");
 }
-

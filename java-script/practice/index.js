@@ -1,5 +1,5 @@
 //? practice 1
-
+/*
 let studentNumber = prompt("tell me your percentage");
 
 if (studentNumber >= 90 && studentNumber <= 100) {
@@ -15,7 +15,7 @@ if (studentNumber >= 90 && studentNumber <= 100) {
 }
 console.log("according to your percentage, your grade is", studentNumber);
 
-
+*/
 // let names = ["hello", "world", "hi", "xyz"];
 
 // names.push("enter new name");
@@ -178,6 +178,7 @@ console.log("according to your percentage, your grade is", studentNumber);
 //   }
 // }
 // debugger
+/*
 var prizeBond = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 20, 30, 40, 50];
 var prizeBondOpened = [1, 2, 3, 22, 33, 44, 55, 66, 77, 9, 43, 50, 30];
 var userWon = []
@@ -191,4 +192,4 @@ for (let i = 0; i < prizeBond.length; i++) {
   }
 }console.log(userWon);
 
-
+*/
