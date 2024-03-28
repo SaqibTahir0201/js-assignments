@@ -95,7 +95,7 @@ console.log(num6);
 
 //* Now we add Num6 with 5 //
 
-var num7 = num6 + 5;
+num6 += 5;
 console.log(num7);
 
 //todo ______________//
