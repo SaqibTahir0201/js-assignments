@@ -54,6 +54,7 @@ for (let i = 1; i <= 10; i++) {
 }
 
 
+*/
 //? Write a loop to print the reverse of a string (let's say "hello").
 
 let str = "hello"
@@ -69,5 +70,3 @@ for (let i = 0; i < 10; i++) {
     console.log(i * i);
     
 }
-
-*/

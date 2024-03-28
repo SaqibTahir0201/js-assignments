@@ -38,6 +38,12 @@ var num1 = 10;
 var num2 = 20;
 var multiplyNum1WithNum2 = num1 * num2;
 console.log(multiplyNum1WithNum2);
+//! ---Variables for Numbers(**)---//
+
+var num1 = 10;
+var num2 = 20;
+var multiplyNum1WithNum2 = num1 ** num2;
+console.log(multiplyNum1WithNum2);
 
 //! ---Variables for Numbers(/)---//
 
