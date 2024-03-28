@@ -113,10 +113,10 @@ console.log(num3);
 //! ---Concatenating Text Strings---//
 //todo _____________//
 
-var name = "Saqib";
+var myName = "Saqib";
 var fatherName = "Tahir";
 // var fullName = "name + fatherName"
-var fullName = name + " " + fatherName;
+var fullName = myName + " " + fatherName;
 console.log(fullName);
 
 //todo ______________//
