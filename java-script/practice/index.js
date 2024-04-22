@@ -20,7 +20,7 @@
 //   }
 // };
 // console.log(calculator(5,2,"+"));
-
+/*
 let isPalindrome = (str) => {
   let reverse = "";
   for (let i = str.length - 1; i >= 0; i--) {
@@ -49,4 +49,18 @@ let newFruits = fruits.map((currentElement,index,arr)=>{
 
 console.log(newFruits);
 
+//$ DOM
 
+function helloWorld() {
+  console.log("heading");
+}
+
+helloWorld();
+
+
+// document.getElementById("heading").innerHTML = "Hello World!";
+let h1 = document.getElementById("heading")
+h1.innerText = "Hello World!"
+console.log(h1.innerHTML = "Hello World!");
+
+*/
