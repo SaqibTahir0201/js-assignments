@@ -64,3 +64,19 @@ h1.innerText = "Hello World!"
 console.log(h1.innerHTML = "Hello World!");
 
 */
+
+let count =1
+
+let span = document.getElementById("main-span")
+function add() {
+  span.innerText = count++ 
+  console.log(count)
+}
+
+
+function min() {
+  span.innerText = count-- 
+  console.log(count)
+}
+
+
