@@ -69,13 +69,15 @@ let count =1
 
 let span = document.getElementById("main-span")
 function add() {
-  span.innerText = count++ 
+  count++
+  span.innerText = count 
   console.log(count)
 }
 
 
 function min() {
-  span.innerText = count-- 
+  count--
+  span.innerText = count 
   console.log(count)
 }
 
