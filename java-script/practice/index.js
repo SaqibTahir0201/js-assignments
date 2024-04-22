@@ -27,7 +27,7 @@ let isPalindrome = (str) => {
     reverse += str[i];
   }
   // if (str === reverse) {
-  l//   return alert ("true") ;
+  //   return alert ("true") ;
   // } else {
   //   return  alert ("false");
   // }
