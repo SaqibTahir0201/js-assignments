@@ -3,7 +3,7 @@ let userInput_result = document.getElementById("userInput_result");
 let random_result = document.getElementById("random_result");
 function diceRoll() {
   let userInput = +prompt("enter number 1 to 6");
-  let randomNumber = Math.ceil(Math.random() * 2);
+  let randomNumber = Math.ceil(Math.random() * 6);
   //   userInput_result.innerText = "user input =>" + userInput.value;
 
   if (userInput === randomNumber) {
