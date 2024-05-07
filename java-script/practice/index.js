@@ -65,20 +65,34 @@ console.log(h1.innerHTML = "Hello World!");
 
 */
 
-let count =1
+// let count =1
 
-let span = document.getElementById("main-span")
-function add() {
-  count++
-  span.innerText = count 
-  console.log(count)
-}
-
-
-function min() {
-  count--
-  span.innerText = count 
-  console.log(count)
-}
+// let span = document.getElementById("main-span")
+// function add() {
+//   count++
+//   span.innerText = count 
+//   console.log(count)
+// }
 
 
+// function min() {
+//   count--
+//   span.innerText = count 
+//   console.log(count)
+// }
+
+
+const date = document.getElementById("date");
+const hours = document.getElementById("hours");
+const minutes = document.getElementById("minutes");
+const seconds = document.getElementById("seconds");
+
+//?  FUNCTION FOR TIMER
+
+let time = setTime(function () {
+  let date = new Date();
+  console.log(date.hours());
+  hours.innerText = date.hours();
+  minutes.innerText = date.minutes();
+  seconds.innerText = date.seconds();
+}, 1000);
